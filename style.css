@@ -1,0 +1,178 @@
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+/* Header Styles */
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12% 70px 12%;
+    
+}
+
+header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header ul {
+    list-style: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Styles */
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    padding: 0px 12% 70px 12%;
+    gap: 20px;
+}
+
+.hero .maintext {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero .secondarytext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero button {
+    background-color: #3882F6;
+    padding: .75em 2em;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.leftside {
+    flex: 1 1 50%;
+}
+
+.hero .imgplace {
+    flex: 1 1 50%;
+}
+
+/* Image Placeholder */
+
+.imgplace {
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Information Section */
+
+.info {
+    padding: 20px 12%;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 12px;
+}
+
+.card {
+    width: 100px;
+    height: auto;
+}
+
+.cardlay {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+/* Quote Section */
+
+.quotesection {
+    background-color: #E5E7EB;
+    margin: 0;
+    padding: 70px 14%;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+blockquote {
+    margin-bottom: 15px;
+}
+
+figcaption {
+    font-weight: 900;
+    text-align: right;
+    padding-right: 50px;
+}
+
+/* Call to Action Section */
+
+.action {
+    padding: 70px 12%;
+}
+.cta {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    padding: 30px 100px;
+    align-items: center;
+}
+
+.ctabutton {
+    flex: 1 0 auto;
+   
+}
+
+.ctatext {
+    flex: 2 0 auto;
+}
+
+.ctabutton button {
+    border: 1px solid white;
+    background-color: #3882F6;
+    color: white;
+    padding: .75em 2em;
+    border-radius: 10px;
+}
+
+/* Footer Style */
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+}
