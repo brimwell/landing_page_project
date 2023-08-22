@@ -30,13 +30,22 @@ header ul {
     padding: 0;
 }
 
+li a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+li a:hover {
+    color: #7c8671;
+}
+
 /* Hero Styles */
 
 .hero {
     background-color: #1F2937;
     display: flex;
     padding: 0px 12% 70px 12%;
-    gap: 20px;
+    gap: 50px;
 }
 
 .hero .maintext {
@@ -72,10 +81,16 @@ header ul {
 .imgplace {
     width: 300px;
     height: 200px;
-    background-color: lightgray;
+    
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.imgplace img {
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
 }
 
 /* Information Section */
@@ -99,9 +114,19 @@ header ul {
     border-radius: 12px;
 }
 
+.box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 11px;
+}
+
 .card {
     width: 100px;
     height: auto;
+}
+
+.card p {
+    text-align: center;
 }
 
 .cardlay {
